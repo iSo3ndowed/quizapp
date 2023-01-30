@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15rem 0rem;
+    font-family: abyssinica SIL;
+    width: 100%;
+    flex-direction: column;
+}
+.quiz-container{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border: 1px solid black;
+}
+.quiz-header{
+    
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    margin: 0;
+    line-height: 25px;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btn{
+    display: flex;
+    gap: 5px;
+    
+}
+#submit{
+    background-color: green;
+    color: white;
+    border: none;
+}
+#submit:hover{
+    background-color: rgba(0, 128, 0, 0.74);
+}
+#next, #prev{
+    background-color: black;
+    color: white;
+    border: none;
+   font-weight: 500;
+}
+#next:hover{
+    background-color: rgba(0, 0, 0, 0.723);
+}
+#prev:hover{
+    background-color: rgba(0, 0, 0, 0.723);
+}
+@media (max-width: 420px){
+    .quiz-container{
+        width: 18rem;
+    }
+}
